@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       :root{
+           --my-border:3px solid green;
+       }
+
+       div{
+           --bg-col:red;
+           border: var(--my-border);
+           height: 40px ;
+       }
+
+
+       article{
+           width: 70px;
+           height: 40px;
+           background-color: var(--bg-col);
+       }
+       section{
+           height: 70px;
+         border: var(--my-border);
+       }
+    </style>
+
+</head>
+<body>
+    <div>
+       <article></article>
+    </div>
+
+    <section>
+
+    </section>
+</body>
+</html>

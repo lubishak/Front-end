@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#F1F2FB;
+}
+
+section{
+    margin: auto;
+    margin-top: 30px;
+    padding: 40px;
+    padding-top: 30px;
+    background-color: white;
+    max-width: 370px;
+    border-radius: 5px;
+    font-family: 'Rubik';
+    
+}
+
+.main_header{
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    width: 70%;
+}
+
+.main_box{
+    display: flex;
+    gap: 40px;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+.thesame{
+    width: 30%;
+    flex-grow: 1;
+}
+.thesame:hover{
+    transition: .2s;
+    border: 2px solid #C5D1FF;
+}
+
+h1{
+    text-align: center;
+}
+
+.first_m{
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px solid #E6EBFF;
+}
+
+.first_para{
+    color: #9EA0A9;
+}
+
+.second_m{
+    display: flex;
+    gap: 10px;
+    border-radius: 5px;
+    border: 2px solid #E6EBFF;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.first_man{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    width: 80%;
+    text-decoration: none;
+}
+
+.second_man{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn_1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px #F4F6FD;
+    
+}
+
+.btn_2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: none;
+}
+
+.yearly{
+    display: flex;
+    gap: 10px;
+}
+
+.box{
+    margin-top: 30px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+.form_box{
+    display: flex;
+    margin-top: 20px;
+    gap: 5px;
+}
+.formbox > .flex_baba{
+    flex: 1;
+    width: 20%;
+}
+.sameo{
+    flex-grow: 1;
+    width: 40%;
+}
+.block{
+    display: block;
+}
+.para{
+    margin-top: 30px;
+    text-align: center;
+    color: #9EA0A9;
+}
+
+.my_input{
+    padding: 10px 14px;
+}
+.flex_baba{
+    display: flex;
+    flex-direction: column;
+}
+
+.submit{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px;
+    background-color: #5578E1;
+    border: none;
+    border-radius: 5px;
+    font-family: Rubik;
+    color: whitesmoke;
+}
+.label{
+    margin-bottom: 10px;
+}
+
+.boxer{
+    color: rgb(184, 198, 247);
+    font-size: 8px;
+    background-color: #F4F6FD;
+    text-decoration: none;
+}

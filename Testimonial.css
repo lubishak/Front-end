@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ebebfb;
+}
+
+section{
+    margin: auto;
+    margin-top: 80px;
+    padding: 50px;
+    background-color: white;
+    max-width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+}
+
+section > *{
+    margin-bottom:  15px;
+}
+
+header h2{
+    margin-bottom: 8px;
+    color: #171828;
+    font-family: 'Mirza';
+}
+
+.para{
+    color: #8d8e97;
+}
+
+.comment{
+    background-color: #171828;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.parag{
+    padding: 20px;
+    font-family: 'Nunito';
+
+}
+
+.arrows button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: solid 2px #ebebfb;
+} 
+
+.right{ 
+    position: absolute;
+    right: -40px;
+    top: 40%;
+} 
+
+.left{
+    position: absolute;
+    left: -40px;
+    top: 40%;
+}
+
+.foto{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+h4{
+    margin-top: 10px;
+    color: #171828;
+}
+
+.foot{
+    color: #8d8e97;
+}

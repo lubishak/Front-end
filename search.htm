@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> test</title>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+        body{
+            background-color: #f2f2f2;
+            font-family: Rubik;
+        }
+        button{
+            border: none;
+            font-family: inherit;
+        }
+        .mb_2{
+            margin-bottom: 20px;
+        }
+        .mb_3{
+            margin-bottom: 30px;
+        }
+        .flex{
+            display: flex;
+        }
+        .head_large{
+            font-size: 30px;
+        }
+        .title_part .head_large{
+            margin-bottom: 4px;
+            text-transform: capitalize;
+        }
+        .main_section{
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            margin-top: 13%;
+            padding: 50px;
+        }
+        .main_section_header{
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nav_part{
+            gap: 20px;
+            align-items: center;
+        }
+        .main_section_blah{
+            gap: 12px;
+        }
+        .tag{
+            background-color: #5C87F2;
+            padding: 10px 12px;
+            border-radius: 5px;
+            color: white;
+            gap: 5px;
+            align-items: center;
+        }
+        .tag_icon{
+            font-size: 19px;
+        }
+        .main_tag{
+            border-radius: 5px;
+            padding: 10px 12px;
+        }
+        .item_con{
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .item{
+            border: 2px solid #D7E3FC;
+            width: 40%;
+            border-radius: 5px;
+            padding: 16px;
+            gap: 10px;
+        
+        }
+        .item_img img{
+            width: 60px;
+            height: 60px;
+            border: 2px solid red;
+            border-radius: 50%;
+        }
+        .item_details{
+            border: 2px solid red;
+            flex-grow: 1;
+        }
+
+       
+    </style>
+</head>
+<body>
+     <section class="main_section">
+         <header class="main_section_header flex mb_2">
+              <div class="title_part ">
+                  <h1 class="head_large">results for "avocado"</h1>
+                  <small>3 results found</small>
+              </div>
+
+              <div class="nav_part flex">
+                 <small>choose display</small>
+                  <div class="nav_part_control flex">
+                      <div class="box bg_blue">box</div>
+                      <div class="box">box</div>
+                  </div>
+              </div>
+         </header>
+
+         <div class="main_section_blah flex mb_3">
+             <button class="main_tag">
+                 <span>filter</span>
+                 <span class="count">3</span>
+             </button>
+             <button class="tag flex">
+                 <span class="tag_span">vegetaian</span>
+                 <span class="tag_icon">&times;</span>
+             </button>
+             <button class="tag flex">
+                 <span class="tag_span">protein </span>
+                 <span class="tag_icon">&times;</span>
+             </button>
+             <button class="tag flex">
+                 <span class="tag_span">dinner</span>
+                 <span class="tag_icon">&times;</span>
+             </button>
+         </div>
+         <div class="item_con flex">
+             <div class="item flex">
+                  <figure class="item_img">
+                    <img src="./images/salad.jpg" alt="">
+                    <figcaption>salad</figcaption>
+                  </figure>
+                  <div class="item_details"></div>
+             </div>
+             <div class="item flex">
+                <figure class="item_img">
+                <img src="./images/meal.jpg" alt="">
+                </figure>
+                <div class="item_details"></div>
+             </div>
+             <div class="item flex">
+                <figure class="item_img">
+
+                </figure>
+                <div class="item_details"></div>
+             </div>
+         </div>
+     </section>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+          
+            width:600px;
+            border: 2px solid red;
+            display: flex;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
+            /* justify-content: center; */
+            /* align-items: center; */
+            gap: 30px;
+        }
+        .flex-item{
+            border: 3px solid black;
+            padding: 20px;
+        }
+        /* .item1{
+        width: 60%;
+        flex-basis: 25%;
+        }
+        .item2{
+            flex-basis: 40%;
+        }
+        .item3{
+            flex-basis: 25%;
+        } */
+        .item1{
+            flex-basis: 60%;
+           
+    
+        }
+        .item5{
+            order: -1;
+        }
+        .item9{
+            order:1;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+
+        <div class="flex-item item1"> item 1</div>
+        <div class="flex-item item2">item 2</div>
+        <div class="flex-item item3">item 3</div>
+        <div class="flex-item item4"> item 4</div>
+        <div class="flex-item item5">item 5</div>
+        <div class="flex-item item6">item 6</div>
+        <div class="flex-item item7"> item 7</div>
+        <div class="flex-item item8">item 8</div>
+        <div class="flex-item item9">item 9</div>
+    </div>
+</body>
+</html>
